@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1366px;
+}
+
+.login {
+    display: flex;
+    background-color: #FBF4F4;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.IMG1, .img2 {
+    position: relative;
+}
+
+.IMG1 {
+    margin-bottom: 5.7rem;
+    top: 40px;
+    left: 40px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 611px;
+}
+
+.acc-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 72px 80px;
+    border-radius: 32px;
+    width: 75%;
+    background-color: #FFFFFF;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title h1 {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.title p {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #666666;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email, .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.email label, .password label {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    color: #666666;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 14px 2px;
+    border-bottom: 1px solid #ADADAD;
+    gap: 8px;
+}
+
+input {
+    outline: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 19.2px;
+    height: 48px;
+}
+
+.view:hover {
+    cursor: pointer;
+} 
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.7rem;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-family: Poppins;
+    height: 56px;
+    background-color: #F24D0D;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    gap: 20px;
+}
+
+.signup p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #666666;
+}
+
+.button2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #F24D0D;
+    height: 56px;
+}
+
+.button2:hover {
+    cursor: pointer;
+}
+
+.button2 p {
+    color: #F24D0D;
+}
+
+@media screen and (max-width: 1216px) {
+    
+}
+
+@media screen and (max-width: 1128px) {
+    .img2 {
+        width: 100%;
+        height: auto;
+    }
+}
