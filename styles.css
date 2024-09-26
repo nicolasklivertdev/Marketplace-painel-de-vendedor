@@ -175,12 +175,36 @@ input {
 }
 
 @media screen and (max-width: 1216px) {
-    
+    .img1, .img2 {
+        width: 100%;
+    }
+
+    .IMG1 {
+        margin-right: 23rem;
+    }
 }
 
-@media screen and (max-width: 1128px) {
+@media screen and (max-width: 1074px) {
+    .login {
+        flex-direction: column;
+    }
+
     .img2 {
-        width: 100%;
-        height: auto;
+        margin: auto;
+        width: auto;
+    }
+
+    .box {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .login {
+        flex-direction: row;
+    }
+
+    .image {
+        display: none;
     }
 }
