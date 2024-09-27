@@ -186,7 +186,7 @@ input {
 
 @media screen and (max-width: 1074px) {
     .login {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .img2 {
@@ -196,6 +196,10 @@ input {
 
     .box {
         margin: auto;
+    }
+
+    .signup {
+        margin-top: 2rem;
     }
 }
 
