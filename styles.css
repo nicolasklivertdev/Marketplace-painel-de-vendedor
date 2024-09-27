@@ -208,3 +208,27 @@ input {
         display: none;
     }
 }
+
+@media screen and (max-width: 483px) {
+    .acc-sec {
+        padding: 72px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .acc-sec {
+        padding: 72px 60px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .acc-sec {
+        padding: 72px 50px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .acc-sec {
+        padding: 72px 40px;
+    }
+}
