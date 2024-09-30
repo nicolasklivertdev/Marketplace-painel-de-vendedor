@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="cadastro">
+            <div class="image">
+                <div class="IMG1">
+                    <img class="img1" src="Marketplace.png">
+                </div>
+                <img class="img2" src="Background.png">
+            </div>
+            <div class="box">
+                <div class="IMG2">
+                    <img class="img21" src="Marketplace.png">
+                </div>
+                <div class="content">
+                    <div class="account">
+                        <div class="title">
+                            <h1>Crie sua conta</h1>
+                            <p>Informe seus dados pessois e de acesso</p>
+                        </div>
+                        <form action="">
+                            <fieldset>
+                                <h3>Perfil</h3>
+                                <img class="Profile" src="images/Profile.png">
+                                <div class="nome">
+                                    <label for="nome">NOME</label>
+                                    <div class="input">
+                                        <img src="images/user.png">
+                                        <input type="text" placeholder="Seu nome completo" name="nome" id="nome" required>
+                                    </div>
+                                </div>
+                                <div class="telefone">
+                                    <label for="telefone">TELEFONE</label>
+                                    <div class="input">
+                                        <img src="images/Vector.png">
+                                        <input type="tel" placeholder="(00) 00000-0000" name="telefone" id="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <h3>Acesso</h3>
+                                <div class="email">
+                                    <label for="email">E-MAIL</label>
+                                    <div class="input">
+                                        <img src="mail.png">
+                                        <input type="email" placeholder="Seu e-mail cadastrado" name="email" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="password">
+                                    <label for="password">SENHA</label>
+                                    <div class="input">
+                                        <img src="access.png">
+                                        <input type="password" placeholder="Sua senha de acesso" name="password" id="password" required>
+                                        <img class="view" src="view.png">
+                                    </div>
+                                </div>
+                                <div class="confirm">
+                                    <label for="confirm">CONFIRMAR SENHA</label>
+                                    <div class="input">
+                                        <img src="access.png">
+                                        <input type="password" placeholder="Confirme a senha" name="password" id="password" required>
+                                        <img class="view" src="view.png">
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="button">
+                                <p>Cadastrar</p>
+                                <img src="arrow-right.png">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sign-in">
+                        <p>Já tem uma conta?</p>
+                        <div class="button2">
+                            <p>Acessar</p>
+                            <img src="arrow-right-orange.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

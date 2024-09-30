@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FBF4F4;
+}
+
+.container {
+    margin: auto;
+    max-width: 1366px;
+}
+
+.cadastro {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.IMG1, .img2 {
+    position: relative;
+}
+
+.IMG1 {
+    margin-bottom: 5.7rem;
+    top: 40px;
+    left: 40px;
+}
+
+.IMG2 {
+    display: none;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 611px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 72px 80px;
+    border-radius: 32px;
+    width: 75%;
+    background-color: #FFFFFF;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title h1 {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.title p {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #666666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset h3 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 0px;
+    gap: 8px;
+    width: 120px;
+}
+
+.nome, .telefone, .email, .password, .confirm {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome label, .telefone label, .email label, .password label, .confirm label {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    color: #666666;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 14px 2px;
+    border-bottom: 1px solid #ADADAD;
+    gap: 8px;
+}
+
+input {
+    outline: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 19.2px;
+    height: 48px;
+}
+
+.view:hover {
+    cursor: pointer;
+} 
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-family: Poppins;
+    height: 56px;
+    background-color: #F24D0D;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 20px;
+}
+
+.sign-in p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #666666;
+}
+
+.button2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #F24D0D;
+    height: 56px;
+}
+
+.button2:hover {
+    cursor: pointer;
+}
+
+.button2 p {
+    color: #F24D0D;
+}
+
+@media screen and (max-width: 1216px) {
+    .img1, .img2 {
+        width: 100%;
+    }
+
+    .IMG1 {
+        margin-right: 23rem;
+    }
+} 
+    
+@media screen and (max-width: 1074px) {
+    .cadastro {
+        flex-direction: column-reverse;
+    }
+
+    .img2 {
+        margin: auto;
+        width: auto;
+    }
+
+    .IMG1 {
+        display: none;
+    }
+    
+    .IMG2, .img21 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .IMG2 {
+        margin-bottom: 3rem;
+        top: 0px;
+        left: 0px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .sign-in {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .cadastro {
+        flex-direction: row;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .content {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .content {
+        padding: 72px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .content {
+        padding: 72px 60px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .content {
+        padding: 72px 50px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .content {
+        padding: 72px 40px;
+    }
+}
