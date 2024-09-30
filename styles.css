@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #FBF4F4;
+}
+
 .container {
     margin: auto;
     max-width: 1366px;
@@ -29,6 +33,10 @@
     margin-bottom: 5.7rem;
     top: 40px;
     left: 40px;
+}
+
+.IMG2 {
+    display: none;
 }
 
 .box {
@@ -194,7 +202,25 @@ input {
         width: auto;
     }
 
+    .IMG1 {
+        display: none;
+    }
+    
+    .IMG2, .img21 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .IMG2 {
+        margin-bottom: 3rem;
+        top: 0px;
+        left: 0px;
+    }
+
     .box {
+        flex-direction: column;
+        align-items: center;
         margin: auto;
     }
 
@@ -210,6 +236,10 @@ input {
 
     .image {
         display: none;
+    }
+
+    .acc-sec {
+        width: auto;
     }
 }
 
