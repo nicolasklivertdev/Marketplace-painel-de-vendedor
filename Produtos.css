@@ -221,6 +221,7 @@ input {
 .Product, .Product2, .Product3, .Product4, .Product5, .Product6 {
     display: flex;
     flex-direction: column;
+    position: relative;
     padding: 4px;
     border-radius: 20px;
     gap: 4px;
@@ -229,6 +230,7 @@ input {
 }
 
 .Product img, .Product2 img, .Product3 img, .Product4 img, .Product5 img, .Product6 img {
+    object-fit: cover;
     width: 100%;
 }
 
@@ -288,8 +290,9 @@ input {
 .tags {
     display: flex;
     align-items: center;
-    margin-top: auto;
-    margin-right: 20px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
     margin-left: auto;
     gap: 4px;
     z-index: 10;
