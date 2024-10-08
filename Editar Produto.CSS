@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FBF4F4;
+}
+
+.container {
+    margin: auto;
+    max-width: 1366px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F5EAEA;
+    height: 80px;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 90px;
+    gap: 8px;
+}
+
+.menu, .menu2 {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.menu p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #666666;
+}
+
+.menu2 p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #F24D0D;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 15px;
+    gap: 15px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 10px;
+    gap: 8px;
+    font-family: Poppins;
+    height: 40px;
+    background-color: #F24D0D;
+    color: white;
+}
+
+.button1:hover {
+    cursor: pointer;
+}
+
+.button1 p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.user {
+    border-radius: 12px;
+}
+
+.user:hover {
+    cursor: pointer;
+}
+
+.user2, .side-menu {
+    display: none;
+}
+
+header, .content {
+    margin: 32px 169px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}   
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 8px;
+}
+
+.link span {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #F24D0D;
+}
+
+.link span:hover {
+    cursor: pointer;
+}
+
+.title h2 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.title p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #666666;
+}
+
+.frame1 {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.frame1 .link {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #F24D0D;
+}
+
+.frame1 .link:hover {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.image img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 20px;
+    gap: 24px;
+    background-color: white;
+}
+
+.frame2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.frame2 h3 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #666666;
+}
+
+.tagstatus {
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 9999px;
+    gap: 8px;
+    background-color: #0095E5;
+}
+
+.tagstatus p {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 2px;
+    border-bottom: 1px solid #ADADAD;
+    gap: 8px;
+    width: 323px;
+}
+
+.input1 label {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    color: #666666;
+}
+
+.INPUT {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #3D3D3D;
+}
