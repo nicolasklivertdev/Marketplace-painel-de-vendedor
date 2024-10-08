@@ -105,6 +105,8 @@ nav {
 }
 
 header, .content {
+    display: flex;
+    justify-content: center;
     margin: 32px 169px;
 }
 
@@ -127,7 +129,7 @@ header {
     gap: 8px;
 }
 
-.link span {
+.link a {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
@@ -175,6 +177,7 @@ header {
 .content {
     display: flex;
     margin-top: 2.5rem;
+    gap: 1.5rem;
 }
 
 .image img {
@@ -233,16 +236,45 @@ form {
     gap: 20px;
 }
 
+.input1-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .input1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.2rem;
+    padding: 14px 2px;
+    border-bottom: 1px solid #ADADAD;
+    gap: 8px;
+    max-width: 323px;
+    width: 100%;
+}
+
+.input2 {
     display: flex;
     flex-direction: column;
     padding: 14px 2px;
     border-bottom: 1px solid #ADADAD;
     gap: 8px;
-    width: 323px;
+    max-width: 200px;
+    width: 100%;
 }
 
-.input1 label {
+.input3 {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 2px;
+    border-bottom: 1px solid #ADADAD;
+    gap: 8px;
+    max-width: 543px;
+    width: 100%;
+    height: 106px;
+}
+
+.input1 label, .input2 label, .input3 label, .select label {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 500;
@@ -250,10 +282,228 @@ form {
     color: #666666;
 }
 
-.INPUT {
+.INPUT1, .INPUT2, .INPUT3, .INPUT4 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
     color: #3D3D3D;
+}
+
+.INPUT2 {
+    display: flex;
+    gap: 4px;
+}
+
+.INPUT2 span {
+    color: #F24D0D;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 2px;
+    border-bottom: 1px solid #ADADAD;
+    gap: 8px;
+    max-width: 543px;
+    width: 100%;
+}
+
+.INPUT4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.INPUT-frame img:hover {
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    max-width: 543px;
+    width: 100%;
+}
+
+.btn1 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid #F24D0D;
+    border-radius: 10px;
+    gap: 12px;
+    max-width: 265.5px;
+    width: 100%;
+    height: 48px;
+}
+
+.btn1 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: #F24D0D;
+}
+
+.btn2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    gap: 12px;
+    max-width: 265.5px;
+    width: 100%;
+    height: 48px;
+    background-color: #F24D0D;
+}
+
+.btn2 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: white;
+}
+
+.btn1:hover, .btn2:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1078px) {
+    header, .content {
+        margin: 32px 84.5px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    header, .content {
+        margin: 32px 42px;
+    }
+}
+
+@media screen and (max-width: 831px) {
+    .frame1 {
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 6px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pages {
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image img {
+        width: auto;
+    }
+
+    form {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .pages {
+        left: 22.5px;
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pages {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .user2 {
+        display: flex;
+        border-radius: 12px;
+        margin-left: auto;
+        position: absolute;
+        top: 14px;
+        right: 15px;
+    }
+
+    .user2:hover {
+        cursor: pointer;
+    }
+
+    .user2:focus + .side-menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        padding: 35px 20px;
+        border-left: 1px solid rgb(245, 235, 235);
+        border-bottom: 1px solid rgb(245, 235, 235);
+        border-right: 1px solid rgb(245, 235, 235);
+        position: absolute;
+        top: 80px;
+        right: 0;
+        z-index: 0;
+        gap: 25px;
+        width: 105px;
+        background-color: white;
+    }
+
+    .menu3, .menu4 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .menu3 p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        color: #666666;
+    }
+
+    .menu4 p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.8px;
+        color: #F24D0D;
+    }
+
+    .button1 {
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .frame1 {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image img {
+        width: 100%;
+    }
 }
