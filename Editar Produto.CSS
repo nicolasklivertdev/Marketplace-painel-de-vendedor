@@ -100,7 +100,7 @@ nav {
     cursor: pointer;
 }
 
-.user2, .side-menu {
+.user2, .side-menu, .menu-toggle {
     display: none;
 }
 
@@ -447,8 +447,12 @@ form {
         cursor: pointer;
     }
 
-    .user2:focus + .side-menu {
-        display: flex;
+    .menu-toggle {
+        display: none;
+    }
+
+    .side-menu {
+        display: none;
         flex-direction: column;
         margin-left: auto;
         padding: 35px 20px;
@@ -462,6 +466,10 @@ form {
         gap: 25px;
         width: 105px;
         background-color: white;
+    }
+
+    .menu-toggle:checked + label + .side-menu {
+        display: flex;
     }
 
     .menu3, .menu4 {
