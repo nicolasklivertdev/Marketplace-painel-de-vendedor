@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Produto</title>
+    <link rel="stylesheet" href="Novo Produto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="images/Logo.png">
+            </div>
+            <div class="pages">
+                <a class="menu" href="Marketplace, dashboard.html">
+                    <img src="images/Estatísticas.png">
+                    <p>Dashboard</p>
+                </a>
+                <a class="menu2" href="Marketplace, produtos.html">
+                    <img src="images/Produtos.png">
+                    <p>Produtos</p>
+                </a>
+            </div>
+            <div class="right-menu">
+                <div class="button1">
+                    <img src="images/Plus.png">
+                    <p>Novo produto</p>
+                </div>
+                <button class="user">
+                    <img src="images/user-produtos.png">
+                </button>
+            </div>
+        </nav>
+        <div class="menu-side">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="user2">
+                <img src="images/user-produtos.png">
+            </label>
+            <div class="side-menu">
+                <a class="menu3" href="Marketplace, dashboard.html">
+                    <img src="images/Estatísticas.png">
+                    <p>Dashboard</p>
+                </a>
+                <a class="menu4" href="Marketplace, produtos.html">
+                    <img src="images/Produtos.png">
+                    <p>Produtos</p>
+                </a>
+            </div>
+        </div>
+        <header>
+            <h2>Novo produto</h2>
+            <p>Cadastre um produto para venda no marketplace</p>
+        </header>
+        <div class="content">
+            <div class="image">
+                <img src="images/Select-image.png">
+            </div>
+            <div class="box">
+                <div class="frame">
+                    <h3>Dados do produto</h3>
+                </div>
+                <form action="">
+                    <div class="fields">
+                        <div class="input1-2">
+                            <div class="input1">
+                                <label for="INPUT1">TÍTULO</label>
+                                <div class="INPUT1">
+                                    <input type="text" name="INPUT1" id="INPUT1" placeholder="Nome do produto">
+                                </div>
+                            </div>
+                            <div class="input2">
+                                <label for="INPUT2">VALOR</label>
+                                <div class="INPUT2">
+                                    <span>R$</span>
+                                    <input type="tel" name="INPUT2" id="INPUT2" placeholder="0,00">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input3">
+                            <label for="INPUT3">DESCRIÇÃO</label>
+                            <div class="INPUT3">
+                                <input type="text" name="INPUT3" id="INPUT3" placeholder="Escreva detalhes sobre o produto, tamanho, características">
+                            </div>
+                        </div>
+                        <div class="select">
+                            <label for="">CATEGORIA</label>
+                            <div class="INPUT4">
+                                <p>Selecione</p>
+                                <div class="INPUT-frame">
+                                    <input type="checkbox" id="dropdown" class="dropdown">
+                                    <label for="dropdown" class="select2">
+                                        <img src="images/arrow-down.png">
+                                    </label>
+                                    <div class="select-dropdown">
+                                        <a href="#">Brinquedo</a>
+                                        <a href="Editar Produto.html">Móvel</a>
+                                        <a href="#">Papelaria</a>
+                                        <a href="#">Saúde & Beleza</a>
+                                        <a href="#">Utensílio</a>
+                                        <a href="#">Vestuário</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a href="Marketplace, produtos.html" class="btn1">
+                            <p>Cancelar</p>
+                        </a>
+                        <a href="Marketplace, produtos.html" class="btn2">
+                            <p>Salvar e atualizar</p>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
