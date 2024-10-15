@@ -494,6 +494,10 @@ input {
         gap: 8px;
     }
 
+    .menu4 img {
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(40%) contrast(25%);
+    }
+
     .menu3 p {
         font-family: Poppins;
         font-size: 14px;
@@ -507,7 +511,7 @@ input {
         font-size: 14px;
         font-weight: 500;
         line-height: 16.8px;
-        color: #F24D0D;
+        color: #666666;
     }
 
     .button1 {
