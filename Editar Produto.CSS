@@ -315,8 +315,41 @@ form {
     align-items: center;
 }
 
-.INPUT-frame img:hover {
+select {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-radius: 8px;
+    outline: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    gap: 18px;
+    width: 100%;
+    background: transparent;
+    background-image: url('images/x.png'), url('images/arrow-down.png'); 
+    background-position: right 40px center, right 10px center;
+    background-repeat: no-repeat, no-repeat;
+    background-color: white;
+    z-index: 10;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #3D3D3D;
+}
+
+select:hover {
     cursor: pointer;
+}
+
+option {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #666666;
+    width: 100%;
 }
 
 .action {
